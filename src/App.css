@@ -1,38 +1,69 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.card {
+  position: fixed;
+  top: 50%;
+  left: 40%;
+  border-radius: 8px;
+  width: 50%;
+  height: 50vh;
+  text-align: center;
+  margin-top: -9em;
+  margin-left: -15em;
+  -webkit-box-shadow: 8px 8px 8px 8px rgb(223, 222, 222) !important;
+  -moz-box-shadow: 8px 8px 8px 8px rgb(223, 222, 222) !important;
+  box-shadow: 8px 8px 8px 8px rgb(223, 222, 222) !important;
+  background-color: rgba(237, 238, 175, 0.137);
+}
+.card h2 {
+  margin-top: 12px;
+  font-size: 32px;
+  font-family: cursive;
+  color: rgb(53, 140, 221);
+}
+.card h3 {
+  padding: 16px;
+  margin-top: 12px;
+  color: rgb(18, 168, 106);
+}
+.card input {
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 8px;
+}
+.card button {
+  border-radius: 8px;
+  background-color: dodgerblue;
+  padding: 6px 12px 6px 12px;
+  outline: none;
+  border: none;
   color: white;
+  margin-top: 18px;
 }
-
-.App-link {
-  color: #61dafb;
+.card h6 {
+  margin-top: 8px;
+  color: red;
+  font-weight: 500;
+  font-size: 12px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Correct {
+  padding: 20px;
+  color: rgb(44, 221, 0);
+}
+.Incorect {
+  padding: 20px;
+  color: rgb(221, 0, 0);
+}
+.loadquestion {
+  padding: 8px;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  outline: none;
 }
